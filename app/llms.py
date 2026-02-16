@@ -149,7 +149,7 @@ LLM_CONFIG = {
         "create_llm": create_lmstudio_llm,
     },
      "Xai": {
-        "models": ["xai/grok-2-1212", "xai/grok-beta"],
+        "models": ["xai/grok-2-1212", "xai/grok-beta", "grok-3", "grok-4"],
         "create_llm": create_xai_llm,
     },
 }
