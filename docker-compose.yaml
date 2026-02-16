@@ -15,7 +15,7 @@ services:
 
   # The Streamlit app
   web:
-    build: .
+    image: nweekley22/crewai-studio
     container_name: crewai_studio
     depends_on:
       - db
